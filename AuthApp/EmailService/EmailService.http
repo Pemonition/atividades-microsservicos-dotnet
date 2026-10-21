@@ -1,0 +1,7 @@
+@EmailService = http://localhost:5289
+
+### Teste direto: envia sem passar pela fila
+POST {{EmailService}}/api/Email/boas-vindas
+Content-Type: application/json
+
+{"id":"17fb72e9-62da-43da-b57f-11fb19845b49","name":"Aluno","email":"aluno@example.com","dataCriacao":"2026-10-21T20:00:00Z"}

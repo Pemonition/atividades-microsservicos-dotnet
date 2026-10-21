@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-10-21T19:26:41.5562914-03:00",
+  "passed": [
+    "AuthApp: HTTP 202 -> RabbitMQ -> SMTP -> email com nome, ID, data e destinatario; dados invalidos retornam 400.",
+    "AuthApp: endpoint direto retorna 200 somente apos envio SMTP.",
+    "AuthApp: falha SMTP preserva evento na fila de falhas e endpoint direto retorna 502.",
+    "Pedidos: criacao 202, atualizacao 200, email com status anterior/atual e valor; inexistente 404 e invalido 400.",
+    "Pedidos: SMTP indisponivel aciona tentativas limitadas e preserva evento na fila de falhas."
+  ]
+}

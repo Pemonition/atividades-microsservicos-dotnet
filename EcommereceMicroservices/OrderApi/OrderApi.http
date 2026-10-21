@@ -1,0 +1,24 @@
+@OrderApi = http://localhost:5109
+
+### Criar pedido: copie pedido.pedidoId da resposta
+POST {{OrderApi}}/pedidos
+Content-Type: application/json
+
+{
+  "clienteNome": "Aluno",
+  "clienteEmail": "aluno@example.com",
+  "valorTotal": 149.90
+}
+
+### Substitua pelo ID retornado acima
+@pedidoId = 00000000-0000-0000-0000-000000000000
+PUT {{OrderApi}}/pedidos/{{pedidoId}}
+Content-Type: application/json
+
+{
+  "status": "Enviado",
+  "valorTotal": 159.90
+}
+
+### Consultar estado atual
+GET {{OrderApi}}/pedidos/{{pedidoId}}

@@ -1,0 +1,13 @@
+@UserService = http://localhost:5104
+
+### Cadastro: publica evento e retorna 202
+POST {{UserService}}/api/Usuario
+Content-Type: application/json
+
+{"nome":"Aluno","email":"aluno@example.com"}
+
+### Dados invalidos: 400
+POST {{UserService}}/api/Usuario
+Content-Type: application/json
+
+{"nome":"","email":"invalido"}
