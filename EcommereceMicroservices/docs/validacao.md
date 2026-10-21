@@ -19,7 +19,7 @@ Os testes isolam o RabbitMQ com fake. Nao comprovam publicacao no broker real ne
 
 Para concluir a verificacao integrada, iniciar Docker, subir o compose, executar API/worker, criar pedido e fazer PUT conforme o README; conferir dados do email no Mailpit. Depois provocar indisponibilidade de SMTP e verificar a fila pedidos-atualizados-email-falhos.
 
-Entrega publicada no repositorio Pemonition/atividades-rannyer-microsservicos. As fontes do professor estao referenciadas no README.
+Entrega publicada no repositorio Pemonition/atividades-microsservicos-dotnet. As fontes do professor estao referenciadas no README.
 
 ## Integracao final executada
 

@@ -29,7 +29,7 @@ Nesta máquina a restauração reutilizou o cache de pacotes da atividade Ecomme
 
 Para reproduzir a integracao: subir o compose, iniciar os dois serviços, cadastrar um usuário e conferir o Mailpit. Para testar a fila de falhas, parar somente o Mailpit, cadastrar outro usuário e verificar fila-usuario-criado-v2-falhas no RabbitMQ. Após corrigir o SMTP, republicar o evento pela ferramenta de administração.
 
-Nenhum envio de email externo foi realizado. A entrega esta publicada no repositorio Pemonition/atividades-rannyer-microsservicos.
+Nenhum envio de email externo foi realizado. A entrega esta publicada no repositorio Pemonition/atividades-microsservicos-dotnet.
 
 ## Integracao executada
 
