@@ -1,0 +1,10 @@
+@Cardapio = http://localhost:5300
+
+### Lista completa, incluindo itens esgotados
+GET {{Cardapio}}/api/cardapio
+
+### Somente lanches com estoque
+GET {{Cardapio}}/api/cardapio?somenteDisponiveis=true
+
+### Processo da vitrine ativo (nao testa dependencia)
+GET {{Cardapio}}/health

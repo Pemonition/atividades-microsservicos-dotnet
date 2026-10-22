@@ -5,6 +5,7 @@
 | EcommereceMicroservices — 19/10/2026 | EmailWorker com dados de atualização de pedidos via RabbitMQ | [Executar e entender](EcommereceMicroservices/README.md) |
 | AuthApp — 20/10/2026 | Documentar arquitetura/endpoints/stack e implementar EmailService com SMTP | [Executar e entender](AuthApp/README.md) |
 | StudioCursos — 21/10/2026 | Evoluir a aula de gRPC com cursos personalizaveis e SQLite | [Proposta, banco e demonstracao](StudioCursos/README.md) |
+| Lanchonete — gRPC em .NET | Cozinha com estoque e API de vitrine consultando por gRPC | [Arquitetura e execucao](Lanchonete/README.md) |
 
 Atividades de Hugo (Pemonition), desenvolvidas com assistencia de IA a partir dos repositorios publicos do professor Rannyer. Fontes: [AuthApp](https://github.com/rannyer/AuthApp) e [EcommereceMicroservices](https://github.com/rannyer/EcommereceMicroservices).
 

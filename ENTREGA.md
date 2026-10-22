@@ -1,5 +1,9 @@
 # Entrega das atividades — professor Rannyer
 
+## Lanchonete — cozinha e vitrine em .NET
+
+[Restaurante.Server e Cardapio.Api](Lanchonete/README.md): contrato Protobuf, comunicacao gRPC, estoque SQLite e vitrine HTTP. Build sem avisos/erros e 8/8 cenarios integrados aprovados. Resultados em [validacao](Lanchonete/VALIDACAO.md).
+
 ## Cadastro e email — AuthApp
 
 Fonte: https://github.com/rannyer/AuthApp

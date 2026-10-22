@@ -1,0 +1,21 @@
+syntax = "proto3";
+option csharp_namespace = "Lanchonete.Grpc";
+package restaurante;
+
+service Cozinha {
+  rpc ListarLanches (ListarLanchesRequest) returns (ListarLanchesResponse);
+  rpc AtualizarEstoque (AtualizarEstoqueRequest) returns (Lanche);
+}
+
+message ListarLanchesRequest {}
+message ListarLanchesResponse { repeated Lanche lanches = 1; }
+message Lanche {
+  int32 id = 1;
+  string nome = 2;
+  int64 preco_centavos = 3;
+  int32 estoque = 4;
+}
+message AtualizarEstoqueRequest {
+  int32 lanche_id = 1;
+  int32 quantidade = 2;
+}
