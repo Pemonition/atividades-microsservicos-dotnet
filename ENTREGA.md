@@ -33,6 +33,12 @@ O modo local nao encaminha emails para caixas externas. Gmail esta implementado 
 
 As capturas da aula de gRPC de 21/10 estao registradas em aulas/2026-10-21-grpc/anotacoes.md. Elas sao material de estudo; nao fazem parte da implementacao das duas atividades acima.
 
-## Resultado final
+## Resultado das atividades de email
+
+A extensao da aula de 21/10 esta em [StudioCursos](StudioCursos/README.md): proposta autoral de catalogo de cursos para artistas, com SQLite, modulos personalizaveis e importacao de referencias via gRPC/Python. O roteiro de demonstracao e os limites para evoluir a SaaS estao no README dessa atividade.
 
 Ambas as solucoes compilaram sem erros/avisos. AuthApp: 7 testes automatizados aprovados. Pedidos: 4 testes xUnit aprovados. Integracao real com RabbitMQ e Mailpit aprovada nos dois projetos, inclusive falhas SMTP e filas de erros. Envio Gmail externo ainda nao executado.
+
+## Resultado da proposta StudioCursos
+
+Build sem erros/avisos. Cinco testes aprovados, incluindo ciclo integrado com arquivo SQLite e processos .NET/Python reais: persistencia apos reinicio, importacao idempotente, personalizacao, falhas e cascata. [Roteiro da apresentacao](StudioCursos/README.md#como-apresentar-ao-professor).

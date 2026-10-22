@@ -1,0 +1,5 @@
+# Dependencias citadas/importadas no exemplo; versoes Python nao fornecidas na aula.
+grpcio
+grpcio-tools
+requests
+beautifulsoup4

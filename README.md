@@ -4,6 +4,7 @@
 | --- | --- | --- |
 | EcommereceMicroservices — 19/10/2026 | EmailWorker com dados de atualização de pedidos via RabbitMQ | [Executar e entender](EcommereceMicroservices/README.md) |
 | AuthApp — 20/10/2026 | Documentar arquitetura/endpoints/stack e implementar EmailService com SMTP | [Executar e entender](AuthApp/README.md) |
+| StudioCursos — 21/10/2026 | Evoluir a aula de gRPC com cursos personalizaveis e SQLite | [Proposta, banco e demonstracao](StudioCursos/README.md) |
 
 Atividades de Hugo (Pemonition), desenvolvidas com assistencia de IA a partir dos repositorios publicos do professor Rannyer. Fontes: [AuthApp](https://github.com/rannyer/AuthApp) e [EcommereceMicroservices](https://github.com/rannyer/EcommereceMicroservices).
 
@@ -14,3 +15,11 @@ Aprendizados iniciais: [padrões da atividade de pedidos](EcommereceMicroservice
 ## Entrega e validacao
 
 Veja [roteiro de apresentacao](ENTREGA.md) e [resultados da integracao real](validacao/integration-result.json). Ambas as solucoes compilam; 7 testes no AuthApp e 4 testes xUnit nos pedidos passaram. Os dois fluxos foram validados com RabbitMQ e Mailpit, incluindo falha SMTP e filas de erros. Gmail externo ainda nao testado.
+
+## Aula de gRPC — 21/10/2026
+
+[Analise do ScraperApi, contrato e servidor Python da aula](aulas/2026-10-21-grpc/analise-e-execucao.md). Material de estudo com codigo fornecido pelo professor e roteiro de execucao; integracao gRPC ainda nao validada.
+
+## Proposta autoral: StudioCursos
+
+[Curso de desenho autoral para tatuagem, API e SQLite](StudioCursos/README.md). Catalogo personalizavel com modulos, referencias por gRPC, persistencia comprovada apos reinicio e testes de falha. Cinco metodos de teste aprovados nesta nova atividade. [Decisoes e caminho para SaaS](StudioCursos/docs/decisoes.md).

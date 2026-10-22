@@ -1,0 +1,15 @@
+{
+  "titulo": "Desenho autoral para tatuagem",
+  "area": "Tatuagem e ilustracao",
+  "publicoAlvo": "Artistas iniciantes que desejam desenvolver um portfolio autoral",
+  "nivel": "Iniciante",
+  "objetivo": "Criar uma composicao original e apresentar suas escolhas visuais em um portfolio.",
+  "criador": "Seu nome artistico",
+  "estudio": "Seu estudio",
+  "cor": "#B85C38",
+  "modulos": [
+    {"ordem": 1, "titulo": "Intencao e pesquisa", "conteudo": "Defina o tema da composicao, registre tres referencias com suas fontes e escreva quais elementos pretende estudar. Crie alternativas proprias em vez de copiar uma obra."},
+    {"ordem": 2, "titulo": "Composicao e contraste", "conteudo": "Desenhe tres miniaturas com pontos focais diferentes. Compare silhueta, espaco negativo e hierarquia. Escolha uma proposta e explique por que ela comunica melhor sua intencao."},
+    {"ordem": 3, "titulo": "Portfolio e revisao", "conteudo": "Apresente o processo, as referencias e a composicao final. Recolha feedback e registre uma revisao. Este curso aborda desenho; nao ensina procedimentos de aplicacao de tatuagem."}
+  ]
+}

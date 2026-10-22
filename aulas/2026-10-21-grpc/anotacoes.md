@@ -2,6 +2,8 @@
 
 Registro incremental das capturas enviadas pelo aluno. As imagens mostram trechos da apresentacao e do editor; nao substituem o repositorio completo. Nao foram transcritas mensagens pessoais, participantes ou endereco da reuniao.
 
+Atualizacao: o chat completo e o repositorio foram recebidos. As incertezas das capturas foram resolvidas em [analise e execucao](analise-e-execucao.md). As notas abaixo preservam o registro do que estava visivel em cada captura.
+
 ## Captura 1 — arquitetura demonstrada
 
 Titulo: "Exemplo: API .NET + Servico Python de web scraping".
@@ -54,4 +56,4 @@ Os arquivos gerados estao presentes, mas a captura nao comprova que o servidor i
 - Implementacao do scraping e tratamento de erros/timeouts.
 - Requisitos ou exercicio definidos pelo professor.
 
-Ainda nao foi criado ou executado um projeto gRPC local a partir dessas imagens.
+Estado atualizado: repositorio do professor baixado e inspecionado; contrato completo e exemplo Python do chat adicionados. A execucao gRPC ainda nao foi validada. Consulte analise-e-execucao.md para os comandos e conclusoes confirmadas.

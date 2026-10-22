@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package produto;
+
+service ScraperService {
+  rpc ObterProdutos (VazioRequest) returns (ListaProdutosResponse);
+}
+
+message VazioRequest {}
+
+message ProdutoDto {
+  string titulo = 1;
+  string preco = 2;
+}
+
+message ListaProdutosResponse {
+  repeated ProdutoDto produtos = 1;
+}

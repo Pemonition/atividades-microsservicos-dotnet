@@ -1,0 +1,8 @@
+**/data/
+**/.venv/
+**/__pycache__/
+**/*_pb2.py
+**/*_pb2_grpc.py
+**/*.db
+**/*.db-shm
+**/*.db-wal
